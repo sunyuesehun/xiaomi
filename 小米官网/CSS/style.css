@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    dorder: 0;
+}
+/*banner开始*/
+.banner{
+     height: 120px;
+}
+.banner a {
+    display: block;
+    height: 120px;
+    background: url("../img/banner.jpg") no-repeat center 0;
+}
+/*nav开始*/
+.nav{
+    background: #333;
+}
+.wrapper{
+    width: 1226px;
+    margin: 0 auto;
+    height: 40px;
+    background: #333;
+}
+.main-nav li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.main-nav li a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.main-nav li span{
+    color: #424242;
+    margin: 0 5px;
+}
+.main-nav li a:hover {
+    color: white;
+}
+.user-info{
+    float: right;
+}
+.user-info li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+
+}
+.user-info,iconfont icon-cart li a{
+    color: #b0b0b0;
+}
+.user-info li a{
+    color: #b0b0b0;
+    font-size: 12px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.user-info li span{
+    color: #424242;
+    margin: 0 5px;
+}
+.user-info li:hover{
+    color: white;
+}
+.user-info li:hover a{
+    color: white;
+}
+/*nav结束*/
